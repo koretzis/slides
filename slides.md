@@ -1,6 +1,6 @@
 # Presentation slides with Reveal.js
 
-Georgios Arampatzis, 2025
+Stylianos (Stelios) Anastasakis, 2025
 
 ---
 
