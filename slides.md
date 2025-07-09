@@ -1,4 +1,4 @@
-<section styles="margin-top: 5rem">
+<section style="margin-top: 5rem">
   <h2>Small data regime of complex systems</h2>
   <p>In complex systems analysis, the cost of data acquisition is prohibitive.</p><br/>
   <p>We are forced to draw conclusions and make decisions under partial information.</p><br/>
