@@ -1,7 +1,9 @@
-# Small data regime of complex systems
-In complex systems analysis, the cost of data acquisition is prohibitive.
-We are forced to draw conclusions and make decisions under partial information.
-In this small data regime, the majority of state-of the art ML techniques (e.g. CNN and RNN) lack robustness and certainty of convergence.
+<section>
+  <h2>Small data regime of complex systems</h2>
+  <p>In complex systems analysis, the cost of data acquisition is prohibitive.</p>
+  <p>We are forced to draw conclusions and make decisions under partial information.</p>
+  <h4>In this small data regime, the majority of state-of the art ML techniques (e.g. CNN and RNN) lack robustness and certainty of convergence.</h4>
+</section>
 
 --
 
