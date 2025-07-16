@@ -1,3 +1,7 @@
+### Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations
+
+Maziar Raissi, Paris Perdikaris, and George Em Karniadakis
+
 ### Small data regime of complex systems
 - In complex systems analysis, the cost of data acquisition is prohibitive.
 - We are forced to draw conclusions and make decisions under partial information.
@@ -59,7 +63,7 @@ $$
 
 ### Physics Informed Neural Networks (PINNs)
 
-- A new class of universal function approximators that is capable of encoding any underlying physical laws and can be described by partial differential equations.
+- A new class of universal function approximators that is capable of encoding any underlying physical laws that can be described by partial differential equations.
 - The implementation simplicity greatly favors rapid development and testing of new ideas, potentially opening the path for a new era in data-driven scientific computing.
 - One pressing question involves addressing the problem of quantifying the uncertainty associated with the neural network predictions.
 
