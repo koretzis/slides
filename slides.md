@@ -14,8 +14,8 @@
 
 ### Limitations of Gaussian processes
 - Gaussian processes (that also elegantly exploit such structured information), pose two important limitations when treating nonlinear problems.
-- 1) Need for local linearization of nonlinear terms with respect to time, and thus limiting the applicability to discrete-time domains.
-- 2) Certain prior assumptions are required, limiting the representation capacity of the model.
+1) Need for local linearization of nonlinear terms with respect to time, and thus limiting the applicability to discrete-time domains.
+2) Certain prior assumptions are required, limiting the representation capacity of the model.
 
 --
 
@@ -32,23 +32,23 @@
 --
 
 ### Main problem classes
-- 1) Data-driven solution
-- 2) Data-driven siscovery
+1) Data-driven solution
+2) Data-driven siscovery
 
 - (du/dt) + N[u;λ] = 0
 - This setup encapsulates a wide range of problems in mathematical physics
-- 1) conservation laws
-- 2) diffusion processes
-- 3) advection-diffusion-reaction systems
-- 4) kinetic equations
+1) conservation laws
+2) diffusion processes
+3) advection-diffusion-reaction systems
+4) kinetic equations
 
 --
 
 ### 1-D Burgers' equation
 - N [u; λ] = λ1uux − λ2uxx and λ = (λ1, λ2)
 - Given noisy measurments, we want to solve two distinct problems:
-- 1) Predictive inference, filtering and smoothing of PDEs
+1) Predictive inference, filtering and smoothing of PDEs
 	- given fixed λ, what can be said about the hidden state?
-- 2) Learning and system identification of PDEs
+2) Learning and system identification of PDEs
 	- which λ best describe the observed data?
 
