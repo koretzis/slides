@@ -2,6 +2,8 @@
 
 Maziar Raissi, Paris Perdikaris, and George Em Karniadakis
 
+---
+
 ### Small data regime of complex systems
 - In complex systems analysis, the cost of data acquisition is prohibitive.
 - We are forced to draw conclusions and make decisions under partial information.
