@@ -35,36 +35,7 @@ Maziar Raissi, Paris Perdikaris, and George Em Karniadakis
 - Exploiting automatic differentiation (Baydin, 2015), leads to neural networks constrained to respect symmetries, invariances and/or conservation principles.
 - This simple, but powerful, construction allows a wide range of problems to be tackled.
 
-<!---
 
---
-
-### Main problem classes
-1) Data-driven solution
-2) Data-driven discovery
-$$
-\ u_t + N[u; \lambda] = 0 \
-$$
-- This setup encapsulates a wide range of problems in mathematical physics
-1) conservation laws
-2) diffusion processes
-3) advection-diffusion-reaction systems
-4) kinetic equations
-
---
-
-### 1-D Burgers' equation
-$$
-\ N[u; \lambda] = \underbrace{\lambda_1 u u_x}_{\text{Nonlinear Advection}} - \underbrace{\lambda_2 u_{xx}}_{\text{Diffusion (Viscosity)}} \
-$$
-- Given noisy measurments, we want to solve two distinct problems:
-1) Predictive inference, filtering and smoothing of PDEs
-	- given fixed λ, what can be said about the hidden state?
-2) Learning and system identification of PDEs
-	- which λ best describe the observed data?
-
-
--->
 ---
 
 ### Physics Informed Neural Networks (PINNs)
@@ -77,3 +48,4 @@ $$
 ---
 
 ### Thank You!
+
