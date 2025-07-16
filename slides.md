@@ -35,7 +35,7 @@
 1) Data-driven solution
 2) Data-driven siscovery
 
-- (du/dt) + N[u;λ] = 0
+- \[ u_t + N[u; \lambda] = 0 \]
 - This setup encapsulates a wide range of problems in mathematical physics
 1) conservation laws
 2) diffusion processes
