@@ -46,7 +46,9 @@ $$
 --
 
 ### 1-D Burgers' equation
+$$
 -  N[u; \lambda] = \underbrace{\lambda_1 u u_x}_{\text{Nonlinear Advection}} - \underbrace{\lambda_2 u_{xx}}_{\text{Diffusion (Viscosity)}}
+$$
 - Given noisy measurments, we want to solve two distinct problems:
 1) Predictive inference, filtering and smoothing of PDEs
 	- given fixed λ, what can be said about the hidden state?
