@@ -35,7 +35,7 @@
 1) Data-driven solution
 2) Data-driven discovery
 $$
-\[ u_t + N[u; \lambda] = 0 \]
+\ u_t + N[u; \lambda] = 0 \
 $$
 - This setup encapsulates a wide range of problems in mathematical physics
 1) conservation laws
@@ -46,7 +46,7 @@ $$
 --
 
 ### 1-D Burgers' equation
-- N [u; λ] = λ1uux − λ2uxx and λ = (λ1, λ2)
+-  N[u; \lambda] = \underbrace{\lambda_1 u u_x}_{\text{Nonlinear Advection}} - \underbrace{\lambda_2 u_{xx}}_{\text{Diffusion (Viscosity)}}
 - Given noisy measurments, we want to solve two distinct problems:
 1) Predictive inference, filtering and smoothing of PDEs
 	- given fixed λ, what can be said about the hidden state?
