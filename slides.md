@@ -55,3 +55,15 @@ $$
 2) Learning and system identification of PDEs
 	- which λ best describe the observed data?
 
+---
+
+### Physics Informed Neural Networks (PINNs)
+
+- A new class of universal function approximators that is capable of encoding any underlying physical laws and can be described by partial differential equations.
+- The implementation simplicity greatly favors rapid development and testing of new ideas, potentially opening the path for a new era in data-driven scientific computing.
+- One pressing question involves addressing the problem of quantifying the uncertainty associated with the neural network predictions.
+
+
+---
+
+### Thank You!
