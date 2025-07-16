@@ -33,6 +33,8 @@ Maziar Raissi, Paris Perdikaris, and George Em Karniadakis
 - Exploiting automatic differentiation (Baydin, 2015), leads to neural networks constrained to respect symmetries, invariances and/or conservation principles.
 - This simple, but powerful, construction allows a wide range of problems to be tackled.
 
+<!---
+
 --
 
 ### Main problem classes
@@ -59,6 +61,8 @@ $$
 2) Learning and system identification of PDEs
 	- which λ best describe the observed data?
 
+
+-->
 ---
 
 ### Physics Informed Neural Networks (PINNs)
